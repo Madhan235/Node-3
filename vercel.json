@@ -1,7 +1,8 @@
 {
     "version":2,
     "name":"students&mentors-app",
-    "build":[{"src":"index.js",
+    "build":[{"src":"./index.js",
             "use":"@version/node"}],
-     "routers":[{"src":"/(.*)","dest":"/index.js"}]
+     "routers":[{"src":"/(.*)",
+     "dest":"/index.js"}]
 }
